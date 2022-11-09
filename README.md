@@ -1,5 +1,5 @@
 <h1 align="center">Iot-LosMerengues</h1>
-<p align="left">Iot Project developed by the multicultural team involving the ITESM (Mexico) and IAT (Brazil)</p>
+<p align="left">Iot Project developed by the multicultural team involving the ITESM (Mexico) and ITA (Brazil)</p>
 <h3 align="center">Defining the problem and our Motivation</h3>
 <p align="left">The situation is...</p>
 <h3 align="center">Developed Solution</h3>
@@ -59,7 +59,17 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=AnotherBot6&" alt="AnotherBot6" /></p>
 
-<h3 align="center">Next Member</h3>
+<h3 align="center">Fernando Dantas</h3>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=feroso&label=Profile%20views&color=0e75b6&style=flat" alt="feroso" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=feroso" alt="feroso" /></a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=feroso&show_icons=true&locale=en&layout=compact" alt="feroso" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=feroso&show_icons=true&locale=en" alt="feroso" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=feroso&" alt="feroso" /></p>
 
 <h3 align="center">Next Member</h3>
 
