@@ -1,4 +1,4 @@
-<h1 align="center">Iot-LosMeregues</h1>
+<h1 align="center">Iot-LosMerengues</h1>
 <p align="left">Iot Project developed by the multicultural team involving the ITESM (Mexico) and IAT (Brazil)</p>
 <h3 align="center">Defining the problem and our Motivation</h3>
 <p align="left">The situation is...</p>
