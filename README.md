@@ -58,14 +58,15 @@ In this project our group will work to build a resilient infrastructure when the
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+We want to create a project that takes advantage of current technological advances, our project will have as a key point the provision of a 5G data network through drones. Thus, our focus is to develop a Command and Control (C2) system that helps rescue teams. To simulate this scenario, virtual machines will be used that simulate the drones and the customers (rescue team and people in need). Through the availability of 5G data signal by drones (mini-servers) customers will connect to a portal with their personal data and will be able to inform their position for rescue. In our scope we expect to develop applications with low level of data transmission, but with high efficiency reducing the cost of data transmission.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+<a href="images/5gdrones.jpeg">
+<img alt="Installed Project"/>
+</a>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Ponto Importante aos Leitores:
+* Esse projeto ainda esta em desenvolvimento, por favor nos avise caso queira acrescentar  ou diminiuir algo que possa nos custar tempo.
+* Fique a vontade para nos ajudar! :smile:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
