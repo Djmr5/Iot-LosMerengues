@@ -60,13 +60,13 @@ In this project our group will work to build a resilient infrastructure when the
 
 We want to create a project that takes advantage of current technological advances, our project will have as a key point the provision of a 5G data network through drones. Thus, our focus is to develop a Command and Control (C2) system that helps rescue teams. To simulate this scenario, virtual machines will be used that simulate the drones and the customers (rescue team and people in need). Through the availability of 5G data signal by drones (mini-servers) customers will connect to a portal with their personal data and will be able to inform their position for rescue. In our scope we expect to develop applications with low level of data transmission, but with high efficiency reducing the cost of data transmission.
 
-<a href="images/5gdrones.jpeg">
-<img alt="Installed Project"/>
+<a href="https://github.com/Djmr5/Iot-LosMerengues/blob/main/images/5gdrones.jpeg?raw=true">
+<img src="images/5gdrones.jpeg">
 </a>
 
-Ponto Importante aos Leitores:
-* Esse projeto ainda esta em desenvolvimento, por favor nos avise caso queira acrescentar  ou diminiuir algo que possa nos custar tempo.
-* Fique a vontade para nos ajudar! :smile:
+Important Point for Readers:
+* This project is still in development, please let us know if you want to add or decrease something that might cost us time.
+* Feel free to help us! :smile:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
