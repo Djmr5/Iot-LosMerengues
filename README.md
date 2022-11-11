@@ -45,7 +45,7 @@ In this project our group will work to build a resilient infrastructure when the
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#roadmap--schedule-%EF%B8%8F%EF%B8%8F">Roadmap && Schedule</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -92,7 +92,8 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 
-## ⏲️⏲️ Schedule <a name = "schedule"></a>
+ <!-- ROADMAP -->
+## Roadmap && Schedule ⏲️⏲️<a name = "schedule"></a>
 
 <table style="border-collapse: collapse; width: 100%">
       <tr>
@@ -135,8 +136,7 @@ This is an example of how to list things you need to use the software and how to
     </table>
 
 
-<!-- ROADMAP -->
-## Roadmap
+
 
 - [x] Add Complete Schudele 
 - [x] Add back to top links
@@ -184,8 +184,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/Djmr5/Iot-LosMerengues
-](https://github.com/Djmr5/Iot-LosMerengues/)
+Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djmr5/Iot-LosMerengues/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,8 +192,6 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
