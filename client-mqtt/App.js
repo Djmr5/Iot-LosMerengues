@@ -16,13 +16,20 @@ init({
   enableCache: true,
   sync: {},
 });
+const options = {
+  host: '40.114.29.3',
+  port: 1883,
+  path: '/mqtt',
+  id: 'id_' + parseInt(Math.random()*100000)
+};
+client = new Paho.MQTT.Client(options.host, options.port, options.path);
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      topic: '',
-      subscribedTopic: '',
+      topic: 'srv/temperature',
+      subscribedTopic: 'srv/temperature',
       message: '',
       messageList: [],
       status: '',
@@ -30,41 +37,50 @@ class App extends Component {
       port: 0,
       severity: '',
     };
-    // client.onConnectionLost = this.onConnectionLost;
-    // client.onMessageArrived = this.onMessageArrived;
+    client.onConnectionLost = this.onConnectionLost;
   }
 
   onConnectionLost = responseObject => {
-    // TODO: onConnectionLost
-  };
-
-  onMessageArrived = message => {
-    // TODO: onMessageArrived
-  };
-
-  subscribeTopic = () => {
-    // TODO: subscribeTopic
+    if (responseObject.errorCode !== 0) {
+      console.log('onConnectionLost:' + responseObject.errorMessage);
+    }
   };
 
   onConnect = () => {
-    // TODO: onConnect
-  };
+    this.setState({ status: 'connected' });
+  }
+  // Todos son relacionados a connect
+  onFailure = () => {
+    this.setState({ status: 'failed' });
+  }
 
-  onFailure = err => {
-    // TODO: onFailure
-  };
+  connect = () => { // Connect Button
+    this.setState(
+      { status: 'isFetching' },
+      () => {
+        client.connect({
+          onSuccess: this.onConnect,
+          useSSL: false,
+          timeout: 3,
+          onFailure: this.onFailure
+        });
+      }
+    );
+  }
 
-  connect = () => {
-    // TODO: connect
-  };
+  onConnectionLost=(responseObject)=>{
+    if (responseObject.errorCode !== 0) {
+      console.log('onConnectionLost:' + responseObject.errorMessage);
+    }
+  }
 
-  unSubscribeTopic = () => {
-    // TODO: unSubscribeTopic
-  };
-
-  sendMessage = () => {
-    // TODO: sendMessage
-  };
+  sendMessage = () =>{ // Update Button
+    // inserting suscribeTopic into send Message | topic: srv/temperature
+    client.subscribe(this.state.subscribedTopic, { qos: 0 });
+    var message = new Paho.MQTT.Message(options.id + ':' + this.state.severity);
+    message.destinationName = this.state.subscribedTopic;
+    client.send(message);
+  }
 
   render() {
     return (
