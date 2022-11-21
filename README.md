@@ -3,31 +3,6 @@
 <h3 align="center">Defining the problem and our Motivation</h3>
 In this project our group will work to build a resilient infrastructure when there is a natural hazard, motivated by the goal of sustainable development based on “Industry, Innovation and Infrastructure” and “Sustainable Cities and Communities”. The scenario that the project is inserted is related to a flood. As the climate and environment are already being altered to a greater degree for the increase in frequency and unpredictability of weather events usually in tropical countries such as Brazil and the environment fatalities and always in tropical countries such as Brazil and the environment fatalities and natural disasters. incalculable (financial and social) for the population. In this way, our motivation rescue is through rescue channels, with the purpose of providing a Command and Control (C2) structure in which it is possible to use voice and data transmission for planning and executing actions.
 
-
-
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -115,7 +90,7 @@ This is an example of how to list things you need to use the software and how to
       </tr>
       <tr>
         <td rowspan="4" style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Collaboration</td>
-        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Step 1 – Project Setup :hourglass:</td>
+        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Step 1 – Project Setup :white_check_mark:</td>
         <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">11 Nov 2022 23:59 (GMT-5)</td>
       </tr>
       <tr>
@@ -140,12 +115,14 @@ This is an example of how to list things you need to use the software and how to
 
 
 - [x] Add Complete Schudele 
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Create README and define requirements
+- [ ] Android Client, Mosquitto Broker and installation of mininet
+    - [ ] Update README with installation instructions
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
-    - [ ] Chinese
+    - [ ] English
     - [ ] Spanish
+    - [ ] Portuguese
     
     
 
@@ -202,88 +179,54 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<h2 align="center">Team Members</h2>
+<!-- TEAM MEMBERS -->
+## Team Members
 
 <h3 align="center">Françoa Taffarel</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=francoataffarel&label=Profile%20views&color=0e75b6&style=flat" alt="francoataffarel" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=francoataffarel" alt="francoataffarel" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=francoataffarel&show_icons=true&locale=en&layout=compact" alt="francoataffarel" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=francoataffarel&show_icons=true&locale=en" alt="francoataffarel" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=francoataffarel&" alt="francoataffarel" /></p>
 
 <h3 align="center">Diego Jacobo Martínez</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=djmr5&label=Profile%20views&color=0e75b6&style=flat" alt="djmr5" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=djmr5" alt="djmr5" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=djmr5&show_icons=true&locale=en&layout=compact" alt="djmr5" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=djmr5&show_icons=true&locale=en" alt="djmr5" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=djmr5&" alt="djmr5" /></p>
 
 <h3 align="center">Carlos Damián Suárez Bernal</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=CDamianS&label=Profile%20views&color=0e75b6&style=flat" alt="CDamianS" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CDamianS" alt="CDamianS" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=CDamianS&show_icons=true&locale=en&layout=compact" alt="CDamianS" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=CDamianS&show_icons=true&locale=en" alt="CDamianS" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=CDamianS&" alt="CDamianS" /></p>
 
 <h3 align="center">Carlos Mendoza Medina</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=AnotherBot6&label=Profile%20views&color=0e75b6&style=flat" alt="AnotherBot6" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AnotherBot6" alt="AnotherBot6" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=AnotherBot6&show_icons=true&locale=en&layout=compact" alt="AnotherBot6" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=AnotherBot6&show_icons=true&locale=en" alt="AnotherBot6" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=AnotherBot6&" alt="AnotherBot6" /></p>
 
 <h3 align="center">Fernando Dantas</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=feroso&label=Profile%20views&color=0e75b6&style=flat" alt="feroso" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=feroso" alt="feroso" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=feroso&show_icons=true&locale=en&layout=compact" alt="feroso" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=feroso&show_icons=true&locale=en" alt="feroso" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=feroso&" alt="feroso" /></p>
 
 <h3 align="center">Marco Iván</h3>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Morkigloxx&label=Profile%20views&color=0e75b6&style=flat" alt="Morkigloxx" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Morkigloxx" alt="Morkigloxx" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Morkigloxx&show_icons=true&locale=en&layout=compact" alt="Morkigloxx" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Morkigloxx&show_icons=true&locale=en" alt="Morkigloxx" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Morkigloxx&" alt="Morkigloxx" /></p>
 
 <h3 align="center">Andrew Steven Williams</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=SirPotato28&label=Profile%20views&color=0e75b6&style=flat" alt="SirPotato28" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=SirPotato28" alt="SirPotato28" /></a> </p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=SirPotato28&show_icons=true&locale=en&layout=compact" alt="SirPotato28" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=SirPotato28&show_icons=true&locale=en" alt="SirPotato28" /></p>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SirPotato28&" alt="SirPotato28" /></p>
