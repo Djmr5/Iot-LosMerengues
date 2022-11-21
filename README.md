@@ -50,12 +50,17 @@ Important Point for Readers:
 
 Lists of major frameworks/libraries used to develop the project.
 
-[![Android Device][android.com]][android-url]
-[![Eclipse Mosquitto][eclipse.com]][eclipse-url]
-[![python][python.org]][Python-url]
-[![MySQL][mysql.com]][mysql-url]
-[![Mininet-Wifi]][https://mininet-wifi.github.io/]
-[![Grafana]][badge-grafana][https://grafana.com/oss/grafana/]
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
+
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+
+![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
