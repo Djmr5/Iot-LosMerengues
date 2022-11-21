@@ -48,7 +48,9 @@ Important Point for Readers:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Lists of major frameworks/libraries used to develop the project.
+
+[![Android Device][android.com]][android-url] [![Eclipse Mosquitto][eclipse.com]][eclipse-url] [![python][python.org]][Python-url] [![MySQL][mysql.com]][mysql-url] [![Mininet-Wifi]][https://mininet-wifi.github.io/] [![Grafana]][badge-grafana][https://grafana.com/oss/grafana/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
