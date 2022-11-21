@@ -39,7 +39,7 @@ We want to create a project that takes advantage of current technological advanc
 <img src="images/5gdrones.jpeg">
 </a>
 
-Important Point for Readers:
+### Important Point for Readers:###
 * This project is still in development, please let us know if you want to add or decrease something that might cost us time.
 * Feel free to help us! :smile:
 
@@ -61,6 +61,8 @@ Lists of major frameworks/libraries used to develop the project.
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+
+![Mininet](https://img.shields.io/static/v1?style=for-the-badge&label=Virtual_Network&message=MININET&color=brightgreen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
