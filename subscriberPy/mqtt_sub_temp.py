@@ -2,10 +2,12 @@ import random
 
 from paho.mqtt import client as mqtt_client
 
-broker = 'localhost'
-port = 1883
+broker = '40.114.29.3'
+port = 1884
 top_temp = "srv/temperature"
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
+username = 's2'
+password = 's2987654321'
 
 def connect_mqtt() -> mqtt_client:
     def on_connect(client, userdata, flags, rc):
@@ -15,7 +17,7 @@ def connect_mqtt() -> mqtt_client:
             print("Failed to connect, return code %d\n", rc)
 
     client = mqtt_client.Client(client_id)
-    #client.username_pw_set(username, password)
+    client.username_pw_set(username, password)
     client.on_connect = on_connect
     client.connect(broker, port)
     return client

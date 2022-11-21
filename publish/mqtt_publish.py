@@ -7,8 +7,6 @@ broker = '40.114.29.3'
 port = 1883
 topic = "srv/temperature"
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
-username = 's1'
-password = 's123456789'
 
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
@@ -18,7 +16,7 @@ def connect_mqtt():
             print("Failed to connect, return code %d\n", rc)
 
     client = mqtt_client.Client(client_id)
-    client.username_pw_set(username, password)
+   # client.username_pw_set(username, password)
     client.on_connect = on_connect
     client.connect(broker, port)
     return client
@@ -30,7 +28,7 @@ def publish(client):
         temperature = 20 + (random.randint(0, 100) * 4)
         msg = f"temperature: {temperature}"
         result = client.publish(topic, msg)
-        result: [0, 1]
+        # result: [0, 1]
         status = result[0]
         if status == 0:
             print(f"Send `{msg}` to topic `{topic}`")
