@@ -50,12 +50,12 @@ Important Point for Readers:
 
 Lists of major frameworks/libraries used to develop the project.
 
-[![Android Device][android.com]]
-[![Eclipse Mosquitto][eclipse.com]]
-[![python][python.org]]
-[![MySQL][mysql.com]]
-[![Mininet-Wifi][https://mininet-wifi.github.io/]]
-[![Grafana][https://grafana.com/oss/grafana/]]
+[![Android Device][android.com]][android-url]
+[![Eclipse Mosquitto][eclipse.com]][eclipse-url]
+[![python][python.org]][Python-url]
+[![MySQL][mysql.com]][mysql-url]
+[![Mininet-Wifi]][https://mininet-wifi.github.io/]
+[![Grafana]][badge-grafana][https://grafana.com/oss/grafana/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
