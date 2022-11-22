@@ -25,7 +25,7 @@ All these tools and others have been greatly simplified with the emergence of ne
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#requirements-&-project-setup">Requirements & Project Setup</a></li>
+        <li><a href="#requirements--project-setup">Requirements & Project Setup</a></li>
         <li><a href="#must-read-for-viewers">Must READ for viewers</a></li>
       </ul>
     </li>
@@ -57,7 +57,7 @@ We want to create a project that takes advantage of current technological advanc
 <img src="images/5gdrones.jpeg">
 </a>
 
-### Requirements & Project Setup
+### Requirements && Project Setup
 
 First we defined some technical and non-technical requirements to develop our solution to meet these.
 Look at those requirements [here](/documentation/requirements.md)
