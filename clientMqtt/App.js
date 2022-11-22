@@ -21,8 +21,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      topic: 'testTopic',
-      subscribedTopic: 'testTopic',
+      topic: 'srv/ip-severity-position',
+      subscribedTopic: 'srv/ip-severity-position',
       message: '',
       messageList: [],
       status: '',
@@ -52,31 +52,6 @@ class App extends Component {
     this.setState({ messageList: newmessageList });*/
   };
 
-  subscribeTopic = () => {
-    // TODO: subscribeTopic
-    //Test *****
-    /*clientSus = new Paho.MQTT.Client(this.state.ip, 1884, '1');
-      this.setState(
-        { status: 'isFetching' },
-        () => {
-          clientSus.connect({
-            onSuccess: this.onConnect,
-            useSSL: false,
-            timeout: 3,
-            onFailure: this.onFailure
-          });
-        }
-      );*/
-    //Test *****
-    this.setState(
-      { subscribedTopic: this.state.topic },
-      () => {
-        this.client.subscribe(this.state.subscribedTopic, { qos: 2 });
-        //clientSus.subscribe(this.state.subscribedTopic, { qos: 2 }); //test
-        console.log('Topic: ' + this.state.subscribedTopic);
-      }
-    );
-  }
 
   onConnect = () => {
     // TODO: onConnect
@@ -107,11 +82,6 @@ class App extends Component {
     );
   }
 
-  unSubscribeTopic = () => {
-    /*// TODO: unSubscribeTopic
-    client.unsubscribe(this.state.subscribedTopic);
-    this.setState({ subscribedTopic: '' });*/
-  };
 
   sendMessage = () => {
     // TODO: sendMessage
@@ -273,3 +243,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
