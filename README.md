@@ -48,7 +48,7 @@ We want to create a project that takes advantage of current technological advanc
 * We are not expecting to keep updating the project after December 2022.
 * Feel free to help us! :smile:
 
-<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
+<p align="right">(<a href="#table-of-contents">Back to Top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -172,7 +172,7 @@ To run the Application run at two terminals each command:
     - [ ] Spanish
     - [ ] Portuguese
 
-<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
+<p align="right">(<a href="#table-of-contents">Back to Top</a>)</p>
 
 
 
@@ -208,7 +208,7 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 * [Instituto Tecnológico de Aeronáutica](http://www.ita.br/)
 * [Global Shared Learning Classroom]( https://global.tec.mx/en/global-shared-learning)
 
-<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
+<p align="right">(<a href="#table-of-contents">Back to Top</a>)</p>
 
 <!-- TEAM MEMBERS -->
 ## Team Members
@@ -262,4 +262,4 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=SirPotato28&show_icons=true&locale=en" alt="SirPotato28" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SirPotato28&" alt="SirPotato28" /></p>
 
-<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
+<p align="right">(<a href="#table-of-contents">Back to Top</a>)</p>
