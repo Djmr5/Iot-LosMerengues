@@ -65,10 +65,48 @@ To setup the environment from zero we recommend following these steps:
 
 :exclamation: In case of issues during setup, the documentation for all frameworks and dependencies are available online and we suggest reading the documents along with these instructions.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+1. Install [Node.js](https://nodejs.org/en/download/) 14 or newer.
+    - In case you are on Windows and don't have chocolatey already installed, the Node installer will do for you.
+
+2. Install the Java Development Kit 11 (JDK) (/recommended/).
+    - You can look at your JAVA version with ```java -version``` at the powershell terminal.
+    - In case you are on Windows and have chocolatey installed you can run ```choco install -y nodejs-lts openjdk11``` at the powershell terminal.
+    - You can also download JDK 11 from [here](https://www.oracle.com/mx/java/technologies/javase/jdk11-archive-downloads.html)
+    - In case you want to use another JDK you must change the Gradle version of your project. Follow the steps on the [React Native documentation](https://reactnative.dev/docs/environment-setup) for more details.
+
+3. Install [Android Studio](https://developer.android.com/studio/index.html) and check during the installation for:
+    - Android SDK
+    - Android SDK Platform
+    - Android Virtual Device
+      * All of them can be done later on.
+
+4. From here, we highly endorse the following steps on React Native environment setup documentation until *Creating a new application* section.
+    - If you followed the previous steps, you can skip to the *Android development environment 2. Install the Android SDK* section.
+
+5. Clone the Android App located in the folder clientMqtt inside this repo into a new project in your Android Studio.
+    - Run the following command to uninstall a global ```react-native-cli``` package, please remove it as it may cause unexpected issues:
+    ```sh
+    npm uninstall -g react-native-cli @react-native-community/cli
+    ```
+
+6. Create the [Virtual Device](https://developer.android.com/studio/run/managing-avds.html) to run the Application.
+    - If you want to use a physical device you can look at the instructions [here](https://reactnative.dev/docs/running-on-device).
+    - Don't forget to create your Android virtual device as we intentionally created the client for Android.
+
+### Runing the project
+
+To run the Application run at two terminal each command:
+
+  - To start Metro:
+
   ```sh
-  npm install npm@latest -g
+  npx react-native start
+  ```
+
+  - To run the app (can also be run directly from Android Studio)
+
+  ```sh
+  npx react-native run-android
   ```
 
 
@@ -115,22 +153,15 @@ This is an example of how to list things you need to use the software and how to
       </tr>
     </table>
 
-
-
-
 - [x] Add Complete Schudele 
 - [x] Create README and define requirements
-- [ ] Android Client, Mosquitto Broker and installation of mininet
-    - [ ] Update README with installation instructions
+- [x] Android Client, Mosquitto Broker and installation of mininet
+    - [x] Update README with installation instructions
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
-    - [ ] English
+    - [x] English
     - [ ] Spanish
     - [ ] Portuguese
-    
-    
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
@@ -150,27 +181,15 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djmr5/Iot-LosMerengues/)
-
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -181,7 +200,6 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 * [Global Shared Learning Classroom]( https://global.tec.mx/en/global-shared-learning)
 
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
-
 
 <!-- TEAM MEMBERS -->
 ## Team Members
@@ -234,3 +252,5 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=SirPotato28&show_icons=true&locale=en&layout=compact" alt="SirPotato28" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=SirPotato28&show_icons=true&locale=en" alt="SirPotato28" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SirPotato28&" alt="SirPotato28" /></p>
+
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
