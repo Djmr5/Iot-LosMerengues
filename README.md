@@ -4,6 +4,14 @@
 
 In this project our group will work to build a resilient infrastructure when there is a natural hazard, motivated by the goal of sustainable development based on “Industry, Innovation and Infrastructure” and “Sustainable Cities and Communities”. The scenario that the project is inserted is related to a flood. As the climate and environment are already being altered to a greater degree for the increase in frequency and unpredictability of weather events usually in tropical countries such as Brazil and the environment fatalities and always in tropical countries such as Brazil and the environment fatalities and natural disasters. incalculable (financial and social) for the population. In this way, our motivation rescue is through rescue channels, with the purpose of providing a Command and Control (C2) structure in which it is possible to use voice and data transmission for planning and executing actions.
 
+Natural disasters have increased in recent years as a result of climate change, which is advancing unstoppably due to human interaction with nature. These cause human losses and represent a high economic cost. For example, in 2017, a series of fires and hurricanes that occurred in the United States were the natural disasters that left the most damage, followed by Typhoon Jebi that hit Russia, Japan and Taiwan, with losses of more than 12.5 billion dollars.
+
+Natural disasters can be climatological (droughts, fires and glacier outburst), geophysical (earthquakes and volcanic activity), hydrological (floods and prolonged rains) and meteorological (storms, extreme temperatures and fog). These types of phenomena have caused 22.5 million people to be displaced annually between 2008 and 2014.
+
+Among the worst catastrophes in recent years is Cyclone Idai, which affected countries such as Mozambique, Zimbabwe and Malawi in 2019 and resulted in more than 1,000 deaths and 1.5 million displaced people. In 2017, a drought affected Somalia and was ranked as the worst in the last 60 years; and in 2016 the earthquake that hit Ecuador is ranked as one of the worst disasters for causing the death of more than 600 people, leaving more than 4,000 injured and damage to infrastructure.
+
+Translated with www.DeepL.com/Translator (free version)
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 <details>
