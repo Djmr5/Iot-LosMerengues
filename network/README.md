@@ -5,6 +5,7 @@ As many groups are facing some problems with the configuration/integration of mi
 STEP 1 - From a linux VM (example:ubuntu-server-22.04) running in Virtual box with network mode in BRIDGE.
 
 STEP 2 - Inside VM execute to install mosquitto server
+
 sudo apt install mosquitto
 sudo systemctl stop mosquitto
 
