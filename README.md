@@ -10,7 +10,7 @@ Natural disasters can be climatological (droughts, fires and glacier outburst), 
 
 Among the worst catastrophes in recent years is Cyclone Idai, which affected countries such as Mozambique, Zimbabwe and Malawi in 2019 and resulted in more than 1,000 deaths and 1.5 million displaced people. In 2017, a drought affected Somalia and was ranked as the worst in the last 60 years; and in 2016 the earthquake that hit Ecuador is ranked as one of the worst disasters for causing the death of more than 600 people, leaving more than 4,000 injured and damage to infrastructure.
 
-Translated with www.DeepL.com/Translator (free version)
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
