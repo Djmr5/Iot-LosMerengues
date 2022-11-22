@@ -1,30 +1,34 @@
 <h1 align="center">GSL-Iot-LosMerengues</h1>
 <p align="left">Iot Project developed by the multicultural team involving the ITESM (Mexico) and ITA (Brazil)</p>
 <h3 align="center">Defining the problem and our Motivation</h3>
+
 In this project our group will work to build a resilient infrastructure when there is a natural hazard, motivated by the goal of sustainable development based on “Industry, Innovation and Infrastructure” and “Sustainable Cities and Communities”. The scenario that the project is inserted is related to a flood. As the climate and environment are already being altered to a greater degree for the increase in frequency and unpredictability of weather events usually in tropical countries such as Brazil and the environment fatalities and always in tropical countries such as Brazil and the environment fatalities and natural disasters. incalculable (financial and social) for the population. In this way, our motivation rescue is through rescue channels, with the purpose of providing a Command and Control (C2) structure in which it is possible to use voice and data transmission for planning and executing actions.
 
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Display Elements</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#important-point-for-readers">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#built-with">Built With</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#runing-the-project">Runing the Project</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap--schedule-%EF%B8%8F%EF%B8%8F">Roadmap && Schedule</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#team-members">Team Members</a></li>
   </ol>
 </details>
 
@@ -39,18 +43,19 @@ We want to create a project that takes advantage of current technological advanc
 <img src="images/5gdrones.jpeg">
 </a>
 
-### Important Point for Readers:###
+### Important Point for Readers
 * This project is still in development, please let us know if you want to add or decrease something that might cost us time.
+* We are not expecting to keep updating the project after December 2022.
 * Feel free to help us! :smile:
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Built With
 
-Lists of major frameworks/libraries used to develop the project.
+List of major frameworks/libraries used to develop the project.
 
 1. The frameworks/libraries are required to develop and run the complete application data flow.
 2. If you're using the latest version of Java Development Kit, you'll need to change the Gradle version of your project
@@ -70,7 +75,11 @@ To setup the environment from zero we recommend following these steps:
 
 2. Install the Java Development Kit 11 (JDK) (/recommended/).
     - You can look at your JAVA version with ```java -version``` at the powershell terminal.
-    - In case you are on Windows and have chocolatey installed you can run ```choco install -y nodejs-lts openjdk11``` at the powershell terminal.
+    - In case you are on Windows and have chocolatey installed you can run at the powershell terminal.
+
+    ```sh
+    choco install -y nodejs-lts openjdk11
+    ```
     - You can also download JDK 11 from [here](https://www.oracle.com/mx/java/technologies/javase/jdk11-archive-downloads.html)
     - In case you want to use another JDK you must change the Gradle version of your project. Follow the steps on the [React Native documentation](https://reactnative.dev/docs/environment-setup) for more details.
 
@@ -93,9 +102,9 @@ To setup the environment from zero we recommend following these steps:
     - If you want to use a physical device you can look at the instructions [here](https://reactnative.dev/docs/running-on-device).
     - Don't forget to create your Android virtual device as we intentionally created the client for Android.
 
-### Runing the project
+### Runing the Project
 
-To run the Application run at two terminal each command:
+To run the Application run at two terminals each command:
 
   - To start Metro:
 
@@ -163,7 +172,7 @@ To run the Application run at two terminal each command:
     - [ ] Spanish
     - [ ] Portuguese
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
 
 
 
@@ -199,7 +208,7 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 * [Instituto Tecnológico de Aeronáutica](http://www.ita.br/)
 * [Global Shared Learning Classroom]( https://global.tec.mx/en/global-shared-learning)
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
 
 <!-- TEAM MEMBERS -->
 ## Team Members
@@ -253,4 +262,4 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=SirPotato28&show_icons=true&locale=en" alt="SirPotato28" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SirPotato28&" alt="SirPotato28" /></p>
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#about-the-project">Back to Top</a>)</p>
