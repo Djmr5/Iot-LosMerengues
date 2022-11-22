@@ -16,7 +16,7 @@ In addition, the technological systems we use on a daily basis can save our live
 
 All these tools and others have been greatly simplified with the emergence of new technologies, which contribute different effective developments to improve the work of emergency services. Definitely being part of this project will help to save lives.
 
-
+<img src="images/Intro.jpg">
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 <details>
