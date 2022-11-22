@@ -43,37 +43,27 @@ We want to create a project that takes advantage of current technological advanc
 * This project is still in development, please let us know if you want to add or decrease something that might cost us time.
 * Feel free to help us! :smile:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
+<!-- GETTING STARTED -->
+## Getting Started
 
 ### Built With
 
 Lists of major frameworks/libraries used to develop the project.
 
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+1. The frameworks/libraries are required to develop and run the complete application data flow.
+2. If you're using the latest version of Java Development Kit, you'll need to change the Gradle version of your project
+3. If you have already installed Node on your system, make sure it is Node 14 or newer.
+4. More details about the React Native setup are available [here](https://reactnative.dev/docs/environment-setup)
 
-![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
-
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-
-![Mininet](https://img.shields.io/static/v1?style=for-the-badge&label=Virtual_Network&message=MININET&color=brightgreen)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![Mininet](https://img.shields.io/static/v1?style=for-the-badge&label=Virtual_Network&message=MININET&color=brightgreen)
 
 ### Prerequisites
+
+To setup the environment from zero we recommend following these steps:
+
+:exclamation: In case of issues during setup, the documentation for all frameworks and dependencies are available online and we suggest reading the documents along with these instructions.
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -142,7 +132,7 @@ This is an example of how to list things you need to use the software and how to
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 
@@ -160,7 +150,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 
@@ -169,7 +159,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 
@@ -178,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djmr5/Iot-LosMerengues/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 
@@ -190,7 +180,7 @@ Project Link: [https://github.com/Djmr5/Iot-LosMerengues](https://github.com/Djm
 * [Instituto Tecnológico de Aeronáutica](http://www.ita.br/)
 * [Global Shared Learning Classroom]( https://global.tec.mx/en/global-shared-learning)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 <!-- TEAM MEMBERS -->
