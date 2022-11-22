@@ -10,6 +10,9 @@ Natural disasters can be climatological (droughts, fires and glacier outburst), 
 
 Among the worst catastrophes in recent years is Cyclone Idai, which affected countries such as Mozambique, Zimbabwe and Malawi in 2019 and resulted in more than 1,000 deaths and 1.5 million displaced people. In 2017, a drought affected Somalia and was ranked as the worst in the last 60 years; and in 2016 the earthquake that hit Ecuador is ranked as one of the worst disasters for causing the death of more than 600 people, leaving more than 4,000 injured and damage to infrastructure.
 
+Technologies are presented as an environment with the potential to contribute to create better living conditions for citizens affected by natural disasters, either from a preventive point of view or to serve as a guide to the inhabitants when the disaster is occurring.
+
+In addition, the technological systems we use on a daily basis can save our lives in the event of a natural disaster. Sending a text message with geolocation helps in the search for missing persons.
 
 
 <!-- TABLE OF CONTENTS -->
