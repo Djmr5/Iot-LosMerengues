@@ -2,8 +2,6 @@
 <p align="left">Iot Project developed by the multicultural team involving the ITESM (Mexico) and ITA (Brazil)</p>
 <h3 align="center">Defining the problem and our Motivation</h3>
 
-In this project our group will work to build a resilient infrastructure when there is a natural hazard, motivated by the goal of sustainable development based on “Industry, Innovation and Infrastructure” and “Sustainable Cities and Communities”. The scenario that the project is inserted is related to a flood. As the climate and environment are already being altered to a greater degree for the increase in frequency and unpredictability of weather events usually in tropical countries such as Brazil and the environment fatalities and always in tropical countries such as Brazil and the environment fatalities and natural disasters. incalculable (financial and social) for the population. In this way, our motivation rescue is through rescue channels, with the purpose of providing a Command and Control (C2) structure in which it is possible to use voice and data transmission for planning and executing actions.
-
 Natural disasters have increased in recent years as a result of climate change, which is advancing unstoppably due to human interaction with nature. These cause human losses and represent a high economic cost. For example, in 2017, a series of fires and hurricanes that occurred in the United States were the natural disasters that left the most damage, followed by Typhoon Jebi that hit Russia, Japan and Taiwan, with losses of more than 12.5 billion dollars.
 
 Natural disasters can be climatological (droughts, fires and glacier outburst), geophysical (earthquakes and volcanic activity), hydrological (floods and prolonged rains) and meteorological (storms, extreme temperatures and fog). These types of phenomena have caused 22.5 million people to be displaced annually between 2008 and 2014.
@@ -12,7 +10,17 @@ Among the worst catastrophes in recent years is Cyclone Idai, which affected cou
 
 Technologies are presented as an environment with the potential to contribute to create better living conditions for citizens affected by natural disasters, either from a preventive point of view or to serve as a guide to the inhabitants when the disaster is occurring.
 
-In addition, the technological systems we use on a daily basis can save our lives in the event of a natural disaster. Sending a text message with geolocation helps in the search for missing persons.
+This paper will specifically address the issue of drones in natural disasters.
+The main advantages of these are:
+1. Access to inaccessible places
+2. Speed
+3. Geolocation
+4. Thermography
+5. Autonomy and flight time
+
+The actions in natural disaster situations include a first phase of emergency action and a second phase of damage assessment. Drones are suitable tools for both phases. Both tasks can be prolonged indefinitely.
+
+In this project our group will work to build a resilient infrastructure when there is a natural hazard, motivated by the goal of sustainable development based on “Industry, Innovation and Infrastructure” and “Sustainable Cities and Communities”. The scenario that the project is inserted is related to a flood. As the climate and environment are already being altered to a greater degree for the increase in frequency and unpredictability of weather events usually in tropical countries such as Brazil and the environment fatalities and always in tropical countries such as Brazil and the environment fatalities and natural disasters. incalculable (financial and social) for the population. In this way, our motivation rescue is through rescue channels, with the purpose of providing a Command and Control (C2) structure in which it is possible to use voice and data transmission for planning and executing actions.
 
 All these tools and others have been greatly simplified with the emergence of new technologies, which contribute different effective developments to improve the work of emergency services. Definitely being part of this project will help to save lives.
 
