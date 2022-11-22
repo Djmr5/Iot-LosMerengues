@@ -1,4 +1,4 @@
-Technical requirements
+**Technical requirements**
 
 • As a developer, i want the users to have a quick and easy
 access to the services we offer.
@@ -42,7 +42,7 @@ Acceptance criteria: Each node sends its state using MQTT
 to the broker, where we have different classifications to
 see the victim’s status (danger).
 
-Non-technical requirements
+**Non-technical requirements**
 
 • As a developer, i want to be able to contact the victim
 regardless of signal since we don’t know where the crisis
