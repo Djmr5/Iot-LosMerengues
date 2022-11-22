@@ -12,7 +12,8 @@ In this project our group will work to build a resilient infrastructure when the
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#important-point-for-readers">Built With</a></li>
+        <li><a href="#requirements-&-project-setup">Requirements & Project Setup</a></li>
+        <li><a href="#must-read-for-viewers">Must READ for viewers</a></li>
       </ul>
     </li>
     <li>
@@ -43,7 +44,15 @@ We want to create a project that takes advantage of current technological advanc
 <img src="images/5gdrones.jpeg">
 </a>
 
-### Important Point for Readers
+### Requirements & Project Setup
+
+First we defined some technical and non-technical requirements to develop our solution to meet these.
+Look at those requirements [here](/documentation/requirements.md)
+
+A new project was also created to keep track of tasks and useful information.
+Look at the project [here](https://github.com/users/Djmr5/projects/1) or at the projects section of this repository.
+
+### Must READ for viewers
 * This project is still in development, please let us know if you want to add or decrease something that might cost us time.
 * We are not expecting to keep updating the project after December 2022.
 * Feel free to help us! :smile:
@@ -92,11 +101,16 @@ To setup the environment from zero we recommend following these steps:
 4. From here, we highly endorse the following steps on React Native environment setup documentation until *Creating a new application* section.
     - If you followed the previous steps, you can skip to the *Android development environment 2. Install the Android SDK* section.
 
-5. Clone the Android App located in the folder clientMqtt inside this repo into a new project in your Android Studio.
+5. Clone the [Android App](/clientMqtt) inside the folder clientMqtt of this repo into a new project in your Android Studio.
     - Run the following command to uninstall a global ```react-native-cli``` package, please remove it as it may cause unexpected issues:
     ```sh
     npm uninstall -g react-native-cli @react-native-community/cli
     ```
+    - If you got trouble while cloning theclientMqtt files you can initialize your own project with:
+    ```sh
+    npx react-native init AwesomeProject
+    ```
+      - Then replace the app file of your new project with the [app.js](/clientMqtt/App.js) at clientMqtt.
 
 6. Create the [Virtual Device](https://developer.android.com/studio/run/managing-avds.html) to run the Application.
     - If you want to use a physical device you can look at the instructions [here](https://reactnative.dev/docs/running-on-device).
