@@ -14,6 +14,8 @@ Technologies are presented as an environment with the potential to contribute to
 
 In addition, the technological systems we use on a daily basis can save our lives in the event of a natural disaster. Sending a text message with geolocation helps in the search for missing persons.
 
+All these tools and others have been greatly simplified with the emergence of new technologies, which contribute different effective developments to improve the work of emergency services. Definitely being part of this project will help to save lives.
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
