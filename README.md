@@ -33,6 +33,15 @@ All these tools and others have been greatly simplified with the emergence of ne
   <summary>Display Elements</summary>
   <ol>
     <li>
+      <a href="#step-deliverables">STEP Deliverables</a>
+      <ul>
+        <li><a href="#step-1">STEP 1</a></li>
+        <li><a href="#step-2">STEP 2</a></li>
+        <li><a href="#step-3">STEP 3</a></li>
+        <li><a href="#step-4">STEP 4</a></li>
+      </ul>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#requirements--project-setup">Requirements & Project Setup</a></li>
@@ -56,7 +65,30 @@ All these tools and others have been greatly simplified with the emergence of ne
   </ol>
 </details>
 
+<!-- DELIVERABLES -->
+## STEP Deliverables
 
+### STEP 1
+
+<details>
+  <summary>Display Elements</summary>
+  <ul>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#requirements--project-setup">Requirements & Project Setup</a></li>
+    *Here at Requirements && Project Setup we have links to the Project in GitHub projects and the Requirements.md*
+    <li><a href="#roadmap--schedule-%EF%B8%8F%EF%B8%8F">Roadmap && Schedule</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</details>
+
+### STEP 2
+
+**Updated Installation Documentation**
+[![ClientMQTTYoutube](https://img.youtube.com/vi/TikJHk4v670/0.jpg)](https://www.youtube.com/embed/TikJHk4v670)
+
+### STEP 3
+### STEP 4
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -230,7 +262,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE.txt](/LICENSE.txt) for more information.
 
 <!-- CONTACT -->
 ## Contact
