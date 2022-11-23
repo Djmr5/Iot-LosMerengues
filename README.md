@@ -85,7 +85,7 @@ All these tools and others have been greatly simplified with the emergence of ne
 ### STEP 2
 
 **Updated Installation Documentation**
-[![ClientMQTTYoutube](https://img.youtube.com/vi/TikJHk4v670/0.jpg)](https://www.youtube.com/embed/TikJHk4v670)
+[![ClientMQTTYoutube](https://img.youtube.com/vi/fVMFK4tlKYw/0.jpg)](https://www.youtube.com/embed/fVMFK4tlKYw)
 
 ### STEP 3
 ### STEP 4
