@@ -54,9 +54,9 @@ def insertMessage(database, message):
         numId = numId + list[0][char]
     list[0] = numId
     listCoords = list[2].split(",")
-    query = "INSERT INTO messages (nodeID, severity, longitude, latitude) VALUES (%s, %s, %s, %s)"
+    sql = "INSERT INTO messages (nodeID, severity, longitude, latitude) VALUES (%s, %s, %s, %s)"
     vals = (int(list[0]), list[1], listCoords[0], listCoords[1])
-    cursor.execute(query, vals)
+    cursor.execute(sql, vals)
     database.commit()
     print(cursor.rowcount, "message inserted in database.")
 
