@@ -5,7 +5,7 @@ from paho.mqtt import client as mqtt_client
 
 broker = '40.114.29.3'
 port = 1883
-topic = "srv/temperature"
+topic = "srv/rescue"
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 
 def connect_mqtt():
