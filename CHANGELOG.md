@@ -13,3 +13,7 @@
 ### Removed
 
 - Some packages/libraries from acknowledgements I no longer use
+
+## v2.0.0
+
+- Created the documentation folder to store all installation readme's, requirements and README image files.

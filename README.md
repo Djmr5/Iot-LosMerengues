@@ -24,7 +24,7 @@ In this project our group will work to build a resilient infrastructure when the
 
 All these tools and others have been greatly simplified with the emergence of new technologies, which contribute different effective developments to improve the work of emergency services. Definitely being part of this project will help to save lives.
 
-<img src="images/Intro.jpg">
+<img src="documentation/images/Intro.jpg">
 </a>
 
 <!-- TABLE OF CONTENTS -->
@@ -85,10 +85,19 @@ All these tools and others have been greatly simplified with the emergence of ne
 ### STEP 2
 
 **Updated Installation Documentation**
+[Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 2do STEP deliverables.
 [![ClientMQTTYoutube](https://img.youtube.com/vi/fVMFK4tlKYw/0.jpg)](https://www.youtube.com/embed/fVMFK4tlKYw)
 
 ### STEP 3
+
+**Updated Installation Documentation**
+[Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 3rd STEP deliverables.
+
 ### STEP 4
+
+The link to our presentation slides.
+Video of the presentation.
+Text file with the Address of the GitHub project
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -96,7 +105,7 @@ All these tools and others have been greatly simplified with the emergence of ne
 We want to create a project that takes advantage of current technological advances, our project will have as a key point the provision of a 5G data network through drones. Thus, our focus is to develop a Command and Control (C2) system that helps rescue teams. To simulate this scenario, virtual machines will be used that simulate the drones and the customers (rescue team and people in need). Through the availability of 5G data signal by drones (mini-servers) customers will connect to a portal with their personal data and will be able to inform their position for rescue. In our scope we expect to develop applications with low level of data transmission, but with high efficiency reducing the cost of data transmission.
 
 <a href="https://github.com/Djmr5/Iot-LosMerengues/blob/main/images/5gdrones.jpeg?raw=true">
-<img src="images/5gdrones.jpeg">
+<img src="documentation/images/5gdrones.jpeg">
 </a>
 
 ### Requirements && Project Setup
