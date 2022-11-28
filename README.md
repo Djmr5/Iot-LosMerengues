@@ -92,7 +92,8 @@ All these tools and others have been greatly simplified with the emergence of ne
 
 **Updated Installation Documentation**.
 [Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 3rd STEP deliverables.
-[![STEP3](https://img.youtube.com/vi/oUROhiYm_vA/0.jpg)](https://www.youtube.com/embed/oUROhiYm_vA)
+[![STEP3](https://img.youtube.com/vi/VXGsvP3AHxk/0.jpg)](https://www.youtube.com/embed/VXGsvP3AHxk)
+The Source Videos for the previous one are available here:
 [![STEP3.1](https://img.youtube.com/vi/oUROhiYm_vA/0.jpg)](https://www.youtube.com/embed/oUROhiYm_vA)
 [![STEP3.2](https://img.youtube.com/vi/oTmXYivuezo/0.jpg)](https://www.youtube.com/embed/oTmXYivuezo)
 https://youtu.be/oUROhiYm_vA
