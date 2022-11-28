@@ -86,17 +86,22 @@ All these tools and others have been greatly simplified with the emergence of ne
 
 **Updated Installation Documentation**.
 [Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 2do STEP deliverables.
+
 [![ClientMQTTYoutube](https://img.youtube.com/vi/fVMFK4tlKYw/0.jpg)](https://www.youtube.com/embed/fVMFK4tlKYw)
 
 ### STEP 3
 
 **Updated Installation Documentation**.
 [Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 3rd STEP deliverables.
+
 [![STEP3](https://img.youtube.com/vi/VXGsvP3AHxk/0.jpg)](https://www.youtube.com/embed/VXGsvP3AHxk)
+
 The Source Videos for the previous one are available here:
+
 [![STEP3.1](https://img.youtube.com/vi/oUROhiYm_vA/0.jpg)](https://www.youtube.com/embed/oUROhiYm_vA)
+
 [![STEP3.2](https://img.youtube.com/vi/oTmXYivuezo/0.jpg)](https://www.youtube.com/embed/oTmXYivuezo)
-https://youtu.be/oUROhiYm_vA
+
 ### STEP 4
 
 The link to our presentation slides.
@@ -139,7 +144,7 @@ List of major frameworks/libraries used to develop the project.
 3. If you have already installed Node on your system, make sure it is Node 14 or newer.
 4. More details about the React Native setup are available [here](https://reactnative.dev/docs/environment-setup)
 
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![Mininet](https://img.shields.io/static/v1?style=for-the-badge&label=Virtual_Network&message=MININET&color=brightgreen)
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Mininet](https://img.shields.io/static/v1?style=for-the-badge&label=Virtual_Network&message=MININET&color=brightgreen)
 
 ### Prerequisites
 
@@ -147,10 +152,10 @@ To setup the environment from zero we recommend following these steps:
 
 :exclamation: In case of issues during setup, the documentation for all frameworks and dependencies are available online and we suggest reading the documents along with these instructions.
 
-1. Install [Node.js](https://nodejs.org/en/download/) 14 or newer.
+1. Install [Node.js](https://nodejs.org/en/download/) 14 or newer. ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
     - In case you are on Windows and don't have chocolatey already installed, the Node installer will do for you.
 
-2. Install the Java Development Kit 11 (JDK) (/recommended/).
+2. Install the Java Development Kit 11 (JDK) (/recommended/). ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
     - You can look at your JAVA version with ```java -version``` at the powershell terminal.
     - In case you are on Windows and have chocolatey installed you can run at the powershell terminal.
 
@@ -160,7 +165,7 @@ To setup the environment from zero we recommend following these steps:
     - You can also download JDK 11 from [here](https://www.oracle.com/mx/java/technologies/javase/jdk11-archive-downloads.html)
     - In case you want to use another JDK you must change the Gradle version of your project. Follow the steps on the [React Native documentation](https://reactnative.dev/docs/environment-setup) for more details.
 
-3. Install [Android Studio](https://developer.android.com/studio/index.html) and check during the installation for:
+3. ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) Install [Android Studio](https://developer.android.com/studio/index.html) and check during the installation for:
     - Android SDK
     - Android SDK Platform
     - Android Virtual Device
@@ -169,7 +174,7 @@ To setup the environment from zero we recommend following these steps:
 4. From here, we highly endorse the following steps on React Native environment setup documentation until *Creating a new application* section.
     - If you followed the previous steps, you can skip to the *Android development environment 2. Install the Android SDK* section.
 
-5. Clone the [Android App](/clientMqtt) inside the folder clientMqtt of this repo into a new project in your Android Studio.
+5. Clone the [Android App](/clientMqtt) inside the folder clientMqtt of this repo into a new project in your Android Studio. ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
     - Run the following command to uninstall a global ```react-native-cli``` package, please remove it as it may cause unexpected issues:
     ```sh
     npm uninstall -g react-native-cli @react-native-community/cli
@@ -184,7 +189,7 @@ To setup the environment from zero we recommend following these steps:
     - If you want to use a physical device you can look at the instructions [here](https://reactnative.dev/docs/running-on-device).
     - Don't forget to create your Android virtual device as we intentionally created the client for Android.
 
-:earth_americas::computer: **Virtual Machine**
+:earth_americas::computer: **Virtual Machine** ![Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 7. Create a Virtual Machine or use your Local Environment to setup Mosquitto, SQL db and Grafana.
     - If you are willing to use a VM hosted on a external PC you can use Microsoft Azure Virtual Machines.
@@ -195,7 +200,7 @@ To setup the environment from zero we recommend following these steps:
         - Connect to the VM via ssh.
         - Opening ports.
 
-8. Install Mosquitto
+8. Install Mosquitto. ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
   * :exclamation: Here is a step by step guide to configure Mosquitto for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
     - To install mosquitto you must execute the following commands:
     ```sh
@@ -215,7 +220,7 @@ To setup the environment from zero we recommend following these steps:
     - Mosquitto Documentation is available [here](https://mosquitto.org/documentation/) as if you need more help.
   * :exclamation: Remember to open and configure all the required ports.
 
-9. Install MYSQL
+9. Install MySQL. ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
   * :exclamation: Here is a step by step guide to configure MYSQL for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
     - To install MYSQL you must execute the following commands:
     ```sh
@@ -229,7 +234,7 @@ To setup the environment from zero we recommend following these steps:
     ```
     - Now MYSQL is installed and you must get the db form the source code.
 
-10. Install Grafana
+10. Install Grafana. ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
   * :exclamation: Here is a step by step guide to configure Grafana for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
     - To install Grafana you must execute the following commands:
     ```sh
