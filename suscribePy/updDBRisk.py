@@ -24,7 +24,7 @@ def disconnect_db(connection):
         connection.close()
         print("MySQL connection is closed")
 
-def updataeRisk(database):
+def updateRisk(database):
     print('EXECUTING......')
     now = datetime.now()  # current date and time
     year2 = now.strftime("%Y")
@@ -52,21 +52,21 @@ def updataeRisk(database):
             totalsecs2 = int(hour2)*3600 + int(minute2)*60 + int(second2)
             dif = totalsecs2 - totalsecs1
             if row[2] == 'Low' and dif > 25:
-                updquery = "UPDATE messages SET Risk = 'Medium' WHERE nodeID = "+"'"+str(row[0])+"'"
+                updquery = "UPDATE messages SET risk = 'Medium' WHERE nodeID = "+"'"+str(row[0])+"'"
                 cursor.execute(updquery)
                 database.commit()
             elif row[2] == 'Medium' and dif < 45:
-                updquery = "UPDATE messages SET Risk = 'Medium' WHERE nodeID = " + "'"+str(row[0])+"'"
+                updquery = "UPDATE messages SET risk = 'Medium' WHERE nodeID = " + "'"+str(row[0])+"'"
                 cursor.execute(updquery)
                 database.commit()
             elif row[2] == 'Medium' and dif>60:
-                updquery = "UPDATE messages SET Risk = 'High' WHERE nodeID = " + "'"+str(row[0])+"'"
+                updquery = "UPDATE messages SET risk = 'High' WHERE nodeID = " + "'"+str(row[0])+"'"
                 cursor.execute(updquery)
                 database.commit()
 
 def run():
     rescueDB = connect_mysql('20.168.251.8', 'CARLO', 'Iot123456789','rescueDB')  # IP and user and password from mysql changes
     while True:
-        updataeRisk(rescueDB)
+        updateRisk(rescueDB)
 
 run()
