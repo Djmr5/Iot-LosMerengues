@@ -84,15 +84,18 @@ All these tools and others have been greatly simplified with the emergence of ne
 
 ### STEP 2
 
-**Updated Installation Documentation**
+**Updated Installation Documentation**.
 [Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 2do STEP deliverables.
 [![ClientMQTTYoutube](https://img.youtube.com/vi/fVMFK4tlKYw/0.jpg)](https://www.youtube.com/embed/fVMFK4tlKYw)
 
 ### STEP 3
 
-**Updated Installation Documentation**
+**Updated Installation Documentation**.
 [Here](https://www.youtube.com/channel/UCFnfEv69GhJT3s-khTIS3qw) is the YouTube Channel with the videos regarding the 3rd STEP deliverables.
-
+[![STEP3](https://img.youtube.com/vi/oUROhiYm_vA/0.jpg)](https://www.youtube.com/embed/oUROhiYm_vA)
+[![STEP3.1](https://img.youtube.com/vi/oUROhiYm_vA/0.jpg)](https://www.youtube.com/embed/oUROhiYm_vA)
+[![STEP3.2](https://img.youtube.com/vi/oTmXYivuezo/0.jpg)](https://www.youtube.com/embed/oTmXYivuezo)
+https://youtu.be/oUROhiYm_vA
 ### STEP 4
 
 The link to our presentation slides.
@@ -179,6 +182,75 @@ To setup the environment from zero we recommend following these steps:
 6. Create the [Virtual Device](https://developer.android.com/studio/run/managing-avds.html) to run the Application.
     - If you want to use a physical device you can look at the instructions [here](https://reactnative.dev/docs/running-on-device).
     - Don't forget to create your Android virtual device as we intentionally created the client for Android.
+
+:earth_americas::computer: **Virtual Machine**
+
+7. Create a Virtual Machine or use your Local Environment to setup Mosquitto, SQL db and Grafana.
+    - If you are willing to use a VM hosted on a external PC you can use Microsoft Azure Virtual Machines.
+    - :exclamation: By using an Azure VM you must pay for the VM usage.
+      * We selected Ubuntu 20.04 as the OS of our VM.
+      * Using an Azure VM requires more steps like:
+        - Creating users and setting up the VM.
+        - Connect to the VM via ssh.
+        - Opening ports.
+
+8. Install Mosquitto
+  * :exclamation: Here is a step by step guide to configure Mosquitto for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
+    - To install mosquitto you must execute the following commands:
+    ```sh
+    sudo apt-get install mosquitto
+    ```
+    ```sh
+    sudo apt-get install mosquitto-clients
+    ```
+    ```sh
+    sudo apt clean
+    ```
+    - Now mosquitto is installed and we continue to configure the files with the following commands:
+    ```sh
+    cd /etc/mosquitto
+    ```
+    - Here you might clone or copy the mosquitto files used in this project or configure the ones you want with the mosquitto documentation.
+    - Mosquitto Documentation is available [here](https://mosquitto.org/documentation/) as if you need more help.
+  * :exclamation: Remember to open and configure all the required ports.
+
+9. Install MYSQL
+  * :exclamation: Here is a step by step guide to configure MYSQL for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
+    - To install MYSQL you must execute the following commands:
+    ```sh
+    sudo apt install mysql-server
+    ```
+    ```sh
+    sudo systemctl status mysql
+    ```
+    ```sh
+    sudo mysql -uroot
+    ```
+    - Now MYSQL is installed and you must get the db form the source code.
+
+10. Install Grafana
+  * :exclamation: Here is a step by step guide to configure Grafana for Ubuntu 20.04, you might want to search for the installation documentation for your OS if using another one.
+    - To install Grafana you must execute the following commands:
+    ```sh
+    sudo apt install grafana-server
+    ```
+    ```sh
+    wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.2.6_amd64.deb
+    ```
+    ```sh
+    sudo dpkg -i grafana-enterprise_9.2.6_amd64.deb
+    ```
+    - To get Grafana runing automatically you can configure.
+    ```sh
+    sudo /bin/systemctl daemon-reload
+    ```
+    ```sh
+    sudo /bin/systemctl enable grafana-server
+    ```
+    - If not you can get it running manually with:
+    ```sh
+    sudo /bin/systemctl start grafana-server.service
+    ```
 
 ### Runing the Project
 
