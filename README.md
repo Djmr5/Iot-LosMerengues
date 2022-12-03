@@ -109,7 +109,7 @@ The [link](https://docs.google.com/presentation/d/1B2om0cioKWiF1DC8xkEfzDwmFAiO_
 Video of the presentation.
 https://youtu.be/AWIDwHXhZQ8
 
-[![STEP4](https://img.youtube.com/vi/rWKCMCHNCtU/0.jpg)](https://www.youtube.com/embed/rWKCMCHNCtU)
+[![STEP4](https://img.youtube.com/vi/AWIDwHXhZQ8/0.jpg)](https://www.youtube.com/embed/AWIDwHXhZQ8)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
