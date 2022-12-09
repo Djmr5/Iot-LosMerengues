@@ -17,3 +17,7 @@
 ## v2.0.0
 
 - Created the documentation folder to store all installation readme's, requirements and README image files.
+
+## v3.0.0
+
+- Final project delivered check readme for more details.
